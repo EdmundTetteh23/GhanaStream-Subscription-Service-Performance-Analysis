@@ -5,7 +5,7 @@ This project involves a comprehensive data analysis of GhanaStream, a subscripti
 
 The final workbook includes a cleaned data model, a dedicated Q&A section for business-critical metrics, and a visual dashboard.
 
-# Data Engineering & Transformation
+## Data Engineering & Transformation
 Before the analysis, I performed significant data cleaning and feature engineering to ensure accuracy:
   Data Modeling: Converted raw ranges into structured Excel Tables to allow for dynamic data expansion and more readable formulas.
   Geographic Integrity: I identified inconsistencies where states (e.g., Greater Accra) were incorrectly mapped to multiple regions. I built a nested logical function to standardize the 16 regions of Ghana into four primary zones: Southern, Northern, Eastern, and Western Ghana.
