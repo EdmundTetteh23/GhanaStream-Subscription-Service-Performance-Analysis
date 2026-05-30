@@ -10,7 +10,7 @@ Before the analysis, I performed significant data cleaning to ensure accuracy:
   1. Data Modeling: Converted raw ranges into structured Excel Tables to allow for dynamic data expansion and more readable formulas.
   2. Geographic Integrity: I identified inconsistencies where states (e.g., Greater Accra) were incorrectly mapped to multiple regions. I      built a nested logical function to standardize the 16 regions of Ghana into four primary zones: Southern, Northern, Eastern, and          Western Ghana.
   3. Financial Logic: Created a custom Revenue column to account for promotional discounts:
-        Revenue = Subscription\ Fee - (Discount \times Subscription\ Fee)
+        Revenue = Subscription Fee - (Discount * Subscription Fee)
 
 ## Key Business Metrics (Q&A)
 I developed a "Stakeholder Q&A" sheet to provide direct answers to essential business questions using advanced Excel formulas:
