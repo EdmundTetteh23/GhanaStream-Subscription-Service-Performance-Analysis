@@ -5,13 +5,14 @@ This project involves a comprehensive data analysis of GhanaStream, a subscripti
 
 The final workbook includes a cleaned data model, a dedicated Q&A section for business-critical metrics, and a visual dashboard.
 
-## Data Engineering & Transformation
-Before the analysis, I performed significant data cleaning and feature engineering to ensure accuracy:
-  Data Modeling: Converted raw ranges into structured Excel Tables to allow for dynamic data expansion and more readable formulas.
-  Geographic Integrity: I identified inconsistencies where states (e.g., Greater Accra) were incorrectly mapped to multiple regions. I built a nested logical function to standardize the 16 regions of Ghana into four primary zones: Southern, Northern, Eastern, and Western Ghana.
-  Financial Logic: Created a custom Revenue column to account for promotional discounts:
+## Data Cleaning and Transformation
+Before the analysis, I performed significant data cleaning to ensure accuracy:
+  1. Data Modeling: Converted raw ranges into structured Excel Tables to allow for dynamic data expansion and more readable formulas.
+  2. Geographic Integrity: I identified inconsistencies where states (e.g., Greater Accra) were incorrectly mapped to multiple regions. I      built a nested logical function to standardize the 16 regions of Ghana into four primary zones: Southern, Northern, Eastern, and          Western Ghana.
+  3. Financial Logic: Created a custom Revenue column to account for promotional discounts:
         Revenue = Subscription\ Fee - (Discount \times Subscription\ Fee)
-Key Business Metrics (Q&A)
+
+## Key Business Metrics (Q&A)
 I developed a "Stakeholder Q&A" sheet to provide direct answers to essential business questions using advanced Excel formulas:
 MetricFormula LogicInsightTotal RevenueSUM(GhanaStream[Revenue])Total capital generated across all tiers.Market SizeCOUNTA(GhanaStream[Order ID])Total volume of transactions processed.MRRSUMIFS (Monthly) + (SUMIFS Annual / 12)Standardized monthly recurring revenue.ARRMRR * 12Projected yearly revenue based on current MRR.Churn RateCOUNTIF (Churn="Yes") / COUNTAPercentage of customers leaving the service.
 The Dashboard
