@@ -1,5 +1,5 @@
 # GhanaStream-Subscription-Service-Performance-Analysis
-📊 Project Overview
+# Project Overview
 This project involves a comprehensive data analysis of GhanaStream, a subscription-based streaming service. The goal was to transform raw, inconsistent data into a high-level executive dashboard to help stakeholders understand revenue health, regional performance, and user retention.
 The final workbook includes a cleaned data model, a dedicated Q&A section for business-critical metrics, and a visual dashboard.
 Data Engineering & Transformation
