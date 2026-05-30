@@ -25,7 +25,8 @@ Data Cleaning: Nested IF and OR logic for data standardization.
 Financial Modeling: Calculating MRR/ARR from mixed-duration subscription plans.
 Data Visualization: Pivot Charts, custom color formatting, and UI/UX layout design in Excel.
 Analytical Thinking: Converting "Classroom Data" into a business-ready case study.
-How to Use
+
+## How to Use
   1. Download the GhanaStream_Dataset.xlsx file.
   2. Navigate to the Dashboard tab for the visual overview.
   3. Check the Q&A tab for the raw metric calculations. 
