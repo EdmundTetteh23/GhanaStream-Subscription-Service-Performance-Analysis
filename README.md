@@ -20,11 +20,12 @@ The GhanaStream General Overview dashboard was designed for executive decision-m
   1. Revenue Segmentation: A breakdown of revenue by subscription tier (Basic, Standard, Premium) and geographic region.
   2. User Behavior: A donut chart showing the percentage split per device, revealing that Mobile (40%) is the primary way users interact       with the platform.
   3. Trend Analysis: A monthly view of recurring revenue across 2023 and 2024 to identify seasonal growth patterns.
-Technical Skills Demonstrated
-Data Cleaning: Nested IF and OR logic for data standardization.
-Financial Modeling: Calculating MRR/ARR from mixed-duration subscription plans.
-Data Visualization: Pivot Charts, custom color formatting, and UI/UX layout design in Excel.
-Analytical Thinking: Converting "Classroom Data" into a business-ready case study.
+
+## Technical Skills Demonstrated
+- Data Cleaning: Nested IF and OR logic for data standardization.
+- Financial Modeling: Calculating MRR/ARR from mixed-duration subscription plans.
+- Data Visualization: Pivot Charts, custom color formatting, and UI/UX layout design in Excel.
+- Analytical Thinking: Converting "Classroom Data" into a business-ready case study.
 
 ## How to Use
   1. Download the GhanaStream_Dataset.xlsx file.
