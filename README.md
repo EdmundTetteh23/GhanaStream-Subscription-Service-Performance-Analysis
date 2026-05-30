@@ -14,8 +14,13 @@ Before the analysis, I performed significant data cleaning to ensure accuracy:
 
 ## Key Business Metrics (Q&A)
 I developed a "Stakeholder Q&A" sheet to provide direct answers to essential business questions using advanced Excel formulas:
-MetricFormula LogicInsightTotal RevenueSUM(GhanaStream[Revenue])Total capital generated across all tiers.Market SizeCOUNTA(GhanaStream[Order ID])Total volume of transactions processed.MRRSUMIFS (Monthly) + (SUMIFS Annual / 12)Standardized monthly recurring revenue.ARRMRR * 12Projected yearly revenue based on current MRR.Churn RateCOUNTIF (Churn="Yes") / COUNTAPercentage of customers leaving the service.
-The Dashboard
+  1. Total Revenue "Formula = SUM(GhanaStream[Revenue])".
+  2. Market Size "Formula = COUNTA(GhanaStream[Order ID])"Total volume of transactions processed"
+  3. Monthly Recurring Revenue (MRR) "Formula = SUMIFS (Monthly) + (SUMIFS Annual / 12)"
+  4. Annual Recurring Revenue (ARR) Formula = MRR * 12"
+  5. Churn Rate "Formula = COUNTIF (Churn="Yes") / COUNTA(Total Number of Customers)"
+
+##The Dashboard
 The GhanaStream General Overview dashboard was designed for executive decision-making, focusing on three core pillars
   1. Revenue Segmentation: A breakdown of revenue by subscription tier (Basic, Standard, Premium) and geographic region.
   2. User Behavior: A donut chart showing the percentage split per device, revealing that Mobile (40%) is the primary way users interact       with the platform.
