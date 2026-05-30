@@ -20,7 +20,7 @@ I developed a "Stakeholder Q&A" sheet to provide direct answers to essential bus
   4. Annual Recurring Revenue (ARR) Formula = MRR * 12"
   5. Churn Rate "Formula = COUNTIF(GhanaStream[Churn Flag],"Yes")/COUNTA(GhanaStream[Order ID])"
 
-##The Dashboard
+## The Dashboard
 The GhanaStream General Overview dashboard was designed for executive decision-making, focusing on three core pillars
   1. Revenue Segmentation: A breakdown of revenue by subscription tier (Basic, Standard, Premium) and geographic region.
   2. User Behavior: A donut chart showing the percentage split per device, revealing that Mobile (40%) is the primary way users interact       with the platform.
