@@ -21,7 +21,7 @@ I developed a "Stakeholder Q&A" sheet to provide direct answers to essential bus
 ## The Dashboard
 The GhanaStream General Overview dashboard was designed for executive decision-making. 
 
-###KPIs
+### KPIs
 - Total Orders
 -  Total SalesP
 -  Perecntage Churned
