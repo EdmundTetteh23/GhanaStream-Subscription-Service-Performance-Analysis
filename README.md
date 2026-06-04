@@ -26,12 +26,12 @@ The GhanaStream General Overview dashboard was designed for executive decision-m
 -  Total SalesP
 -  Perecntage Churned
 
-###Visualizations
+### Visualizations
 1. Revenue Segmentation: A breakdown of revenue by subscription tier (Basic, Standard, Premium) and geographic region.
 2. 2. User Behavior: A donut chart showing the percentage split per device, revealing that Mobile (40%) is the primary way users interact       with the platform.
 3. 3. Trend Analysis: A monthly view of recurring revenue across 2023 and 2024 to identify seasonal growth patterns.
 
-###Slicers
+### Slicers
 Slicers to make the dashboard interactive and filter through data include:
 - Year
 - Plan Type
